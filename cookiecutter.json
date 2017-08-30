@@ -1,0 +1,9 @@
+{
+    "project_name": "my crossbar router",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "realm_name": "realm1",
+    "port": 8080,
+    "_copy_without_render": [
+        "web/*"
+    ]
+}
